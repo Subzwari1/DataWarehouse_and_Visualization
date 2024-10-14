@@ -25,25 +25,26 @@ Data Source: https://www.kaggle.com/datasets/yogidsba/us-highway-railgrade-cross
 
 2. Data Warehouse Design:
 
-Designed an Entity-Relationship Diagram (ERD) and developed the schema in PostgreSQL.
-Defined fact and dimension tables to store the accident data effectively.
-ETL Process:
+-  Designed an Entity-Relationship Diagram (ERD) and developed the schema in PostgreSQL.
+-  Defined fact and dimension tables to store the accident data effectively.
 
-3. Extract: Loaded the raw dataset into a staging area.
-Transform: Cleaned the data, handled missing values, and structured it into the required format.
-Load: Imported the transformed data into the PostgreSQL data warehouse.
+3. ETL Process:
+-  Extract: Loaded the raw dataset into a staging area.
+-  Transform: Cleaned the data, handled missing values, and structured it into the required format.
+-  Load: Imported the transformed data into the PostgreSQL data warehouse.
 
 4. Data Analysis:
-Used SQL queries to perform in-depth analysis of accident trends, identifying patterns related to location, time, and severity.
-Generated insights on accident frequency, common causes, and affected regions.
-Data Visualization:
+-  Used SQL queries to perform in-depth analysis of accident trends, identifying patterns related to location, time, and severity.
+-  Generated insights on accident frequency, common causes, and affected regions.
+  
+5. Data Visualization:
 
-5. Created interactive dashboards and charts using Tableau to visualize:
-Accident trends over time.
-Geographic distribution of accidents.
-Types and causes of accidents.
-Severity and impact analysis.
-These visualizations provide an intuitive way for non-technical stakeholders to interpret complex data.
+- Created interactive dashboards and charts using Tableau to visualize:
+  - Accident trends over time.
+  - Geographic distribution of accidents.
+  - Types and causes of accidents.
+  - Severity and impact analysis.
+  - These visualizations provide an intuitive way for non-technical stakeholders to interpret complex data.
 
 ### Key Features
 - Data Warehouse: A well-structured warehouse schema for efficient data storage and retrieval.
